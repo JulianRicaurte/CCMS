@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Prueba</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: Pruebaa;
+	}
+	#Pruebaa * {
+		margin: 0;
+		padding: 0;
+	}
+	#Pruebaa {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1717px;
+		height: 936px;
+		background-color: rgba(233, 232, 232, 0.966);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: Pruebaa;
+		--web-view-id: Pruebaa;
+		--web-enable-deep-linking: true;
+	}
+	#Hora_extra_para_reportar {
+		opacity: 1;
+		position: absolute;
+		left: 526px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 823px;
+		height: 91px;
+		text-align: left;
+		font-family:Arial, Helvetica, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(250,250,250,1);
+		z-index: 1;
+	}
+	#Rect_ngulo_1 {
+		opacity: 0.4;
+		fill: rgb(245, 243, 243);
+		border-radius: 12px;
+	}
+	.Rect_ngulo_1 {
+		position: absolute;
+		width: 467px;
+		height: 30px;
+		left: 25px;
+		top: 187px;
+	}
+	#Documento_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 153px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(59,87,66,1);
+	}
+	#Rect_ngulo_2 {
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_2 {
+		position: absolute;
+		overflow: visible;
+		width: 467px;
+		height: 30px;
+		left: 25px;
+		top: 281px;
+	}
+	#Nombres_y_Apellidos_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 250px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,87,83,1);
+	}
+	#Rect_ngulo_2_A0_Rectangle_3 {
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_2_A0_Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 467px;
+		height: 51px;
+		left: 25px;
+		top: 403px;
+	}
+	#Fecha_de_inicio_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 372px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,87,83,1);
+	}
+	#Rect_ngulo_2_A0_Rectangle_4 {
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_2_A0_Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 467px;
+		height: 51px;
+		left: 25px;
+		top: 525px;
+	}
+	#Fecha_Fin_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 494px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,87,83,1);
+	}
+	#Rect_ngulo_2_A0_Rectangle_5 {
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_2_A0_Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 467px;
+		height: 51px;
+		left: 25px;
+		top: 647px;
+	}
+	#Horario_Inicio_de_turno_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 623px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,87,83,1);
+	}
+	#Rect_ngulo_2_A0_Rectangle_6 {
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_2_A0_Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 467px;
+		height: 51px;
+		left: 25px;
+		top: 769px;
+	}
+	#Horario_Fin_de_turno_ {
+		opacity: 1;
+		position: absolute;
+		left: 25px;
+		top: 738px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(14,87,83,1);
+	}
+	#Rect_ngulo_3 {
+		opacity: 0.4;
+		fill: rgba(238,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_3 {
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 39px;
+		left: 539px;
+		top: 545px;
+	}
+	#Horario_hora_extra_ {
+		opacity: 1;
+		position: absolute;
+		left: 539px;
+		top: 517px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(24,73,68,1);
+	}
+	#Rect_ngulo_3_A0_Rectangle_8 {
+		opacity: 0.4;
+		fill: rgba(238,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_3_A0_Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 39px;
+		left: 539px;
+		top: 659px;
+	}
+	#Horario_Fin_hora_extra_ {
+		opacity: 1;
+		position: absolute;
+		left: 539px;
+		top: 631px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(24,73,68,1);
+	}
+	#Rect_ngulo_3_A0_Rectangle_9 {
+		opacity: 0.4;
+		fill: rgba(238,231,231,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		border-radius: 15px;
+	}
+	.Rect_ngulo_3_A0_Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 39px;
+		left: 539px;
+		top: 773px;
+	}
+	#Motivo_hora_extra_ {
+		opacity: 1;
+		position: absolute;
+		left: 539px;
+		top: 745px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 372px;
+		height: 48px;
+		text-align: left;
+		font-family: Ebrima;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(24,73,68,1);
+	}
+	/* separate*/
+
+#button{
+
+
+	}
+
+	.button{
+
+
+
+	}
+
+	#table{
+		opacity: 0.42;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.table{
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 315px;
+		left: 539px;
+		top: 155px;
+
+	}
+	#Rect_ngulo_5 {
+		opacity: 0.29;
+		fill: rgb(71, 71, 71);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		z-index: -10;
+	}
+	.Rect_ngulo_5 {
+		position: absolute;
+		overflow: visible;
+		width: 1717px;
+		height: 111px;
+		left: 0px;
+		top: 0px;
+	}
+</style>
+</head>
+<body>
+<div id="Pruebaa">
+	<div id="Hora_extra_para_reportar">
+		<span>Hora extra para reportar</span>
+	</div>
+		<input class="Rect_ngulo_1" id="Rect_ngulo_1" rx="0" ry="0" x="0" y="0" width="467" height="43" type="text">
+		</input>
+
+	<div id="Documento_">
+		<span>Documento:</span>
+	</div>
+		<input id="Rect_ngulo_2" class="Rect_ngulo_2" rx="25.5" ry="25.5" x="0" y="0" width="467" height="51" type="text">
+</input>
+	<div id="Nombres_y_Apellidos_">
+		<span>Nombres y Apellidos:</span>
+	</div>
+		<input class="Rect_ngulo_2_A0_Rectangle_3" id="Rect_ngulo_2_A0_Rectangle_3" rx="25.5" ry="25.5" x="0" y="0" width="467" height="51" type="text">
+</input>
+	<div id="Fecha_de_inicio_">
+		<span>Fecha de inicio:</span>
+	</div>
+		<input class="Rect_ngulo_2_A0_Rectangle_4" id="Rect_ngulo_2_A0_Rectangle_4" rx="25.5" ry="25.5" x="0" y="0" width="467" height="51" type="date" step="1" min="2019-01-01">
+</input>
+	<div id="Fecha_Fin_">
+		<span>Fecha Fin:</span>
+	</div>
+		<input class="Rect_ngulo_2_A0_Rectangle_5" id="Rect_ngulo_2_A0_Rectangle_5" rx="25.5" ry="25.5" x="0" y="0" width="467" height="51" type="date">
+</input>
+
+	<div id="Horario_Inicio_de_turno_">
+		<span>Horario Inicio de turno:</span>
+	</div>
+		<input class="Rect_ngulo_2_A0_Rectangle_6" id="Rect_ngulo_2_A0_Rectangle_6" rx="25.5" ry="25.5" x="0" y="0" width="467" height="51" type="date">
+</input>
+	<div id="Horario_Fin_de_turno_">
+		<span>Horario Fin de turno:</span>
+	</div>
+
+		<input class="Rect_ngulo_3" id="Rect_ngulo_3" rx="19.5" ry="19.5" x="0" y="0" width="449" height="39" type="date">
+</input>
+	<div id="Horario_hora_extra_">
+		<span>Horario hora extra:</span>
+	</div>
+		<input class="Rect_ngulo_3_A0_Rectangle_8" id="Rect_ngulo_3_A0_Rectangle_8" rx="19.5" ry="19.5" x="0" y="0" width="449" height="39" type="date">
+</input>
+	<div id="Horario_Fin_hora_extra_">
+		<span>Horario Fin hora extra:</span>
+	</div>
+
+		<input class="Rect_ngulo_3_A0_Rectangle_9" id="Rect_ngulo_3_A0_Rectangle_9" rx="19.5" ry="19.5" x="0" y="0" width="449" height="39" type="text">
+</input>
+	<div id="Motivo_hora_extra_">
+		<span>Motivo hora extra:</span>	
+	</div>
+	<table class="table" id="table" width="449" height="315" style="width: 100%">
+		<tr>
+			<th>#Fecha_de_inicio_</th>
+		</tr>
+<tr>
+	<td>test</td>
+</tr>
+
+	</table>
+
+</div>
+<div>
+		<svg class="Rect_ngulo_5">
+				<rect id="Rect_ngulo_5" rx="0" ry="0" x="0" y="0" width="1717" height="111">
+				</rect>
+			</svg>
+</div>
+</body>
+<script scr=scripts/main.js">
+var myButton = document.querySelector('button');
+var myHeading = document.querySelector('h1');
+</script>
+</html>
